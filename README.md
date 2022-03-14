@@ -11,6 +11,6 @@
 ### Description:
 - :computer: **React JS**
 - :round_pushpin: useState
-- round_pushpin: useEffect
-- round_pushpin: useReducer
-- round_pushpin: Context API
+- :round_pushpin: useEffect
+- :round_pushpin: useReducer
+- :round_pushpin: Context API
