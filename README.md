@@ -1,6 +1,6 @@
 # Expense Tracker
 
-## 🚀 Languages and Tools:
+## :computer: Languages and Tools:
 <p align="center">
     <a href="https://www.w3.org/html/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/html-5.png"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/css3.png"/> </a> 
@@ -9,8 +9,8 @@
 </p>
 
 ### :notebook_with_decorative_cover: Description:
-- :computer: **React JS**
-- :round_pushpin: useState
-- :round_pushpin: useEffect
-- :round_pushpin: useReducer
-- :round_pushpin: Context API
+-  **React JS**
+-  🚀 useState
+-  🚀 useEffect
+-  🚀 useReducer
+-  🚀Context API
