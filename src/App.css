@@ -43,6 +43,7 @@ section {
   border-bottom: 1px solid rgb(170, 170, 170);
 }
 .trans-container {
+  margin-bottom: 10px;
   position: relative;
   width: 100%;
   padding: 10px;
@@ -50,29 +51,45 @@ section {
   justify-content: space-between;
   align-items: center;
   box-shadow: 1px 1px 4px 0 rgb(136, 136, 136);
+  overflow: hidden;
 }
 .delete-icon {
   cursor: pointer;
   position: absolute;
   padding: 8px;
-  opacity: 0;
-  top: 0;
+  top: -100%;
   right: 0;
   background-color: rgb(255, 111, 111);
   width: 35px;
   height: 100%;
-  box-shadow: 1px 1px 4px 0 rgb(136, 136, 136);
-  transition: all 0.5s ease-in;
+  transition: all 0.2s ease-in;
 }
 .trans-container:hover .delete-icon {
-  opacity: 1;
-  right: -70px;
+  top: 0;
+}
+.transactions-scrollable-container {
+  width: 100%;
+  height: 80%;
+  padding: 5px 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* Header */
-.header-container > h1 {
+.header-container > h3 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.header-container > p {
   margin-bottom: 25px;
   text-align: center;
+  font-weight: bold;
+  font-size: 26px;
 }
 .header-container > div {
   margin: 10px 0;
@@ -86,8 +103,13 @@ section {
   border-bottom: 1px solid rgb(170, 170, 170);
 }
 .cost-container {
+  position: relative;
   background-color: #fff;
   padding: 10px;
+}
+.cost-container p span {
+  position: absolute;
+  right: 10px;
 }
 
 /* Add Transaction */
@@ -105,6 +127,11 @@ section {
   outline: none;
   padding: 10px;
 }
+.inputs-container > label > span {
+  font-style: italic;
+  font-size: 11px;
+  color: rgb(145, 145, 145);
+}
 .add-button {
   outline: none;
   border: 1px solid rgb(170, 170, 170);
@@ -115,4 +142,15 @@ section {
 }
 .add-button:active {
   background-color: rgb(201, 201, 201);
+}
+
+/* Colors Event */
+.sign-value {
+  color: #000;
+}
+.income {
+  color: green;
+}
+.expense {
+  color: red;
 }
