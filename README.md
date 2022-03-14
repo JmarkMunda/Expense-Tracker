@@ -8,7 +8,7 @@
     <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"/> </a>
 </p>
 
-### Description:
+### :notebook_with_decorative_cover: Description:
 - :computer: **React JS**
 - :round_pushpin: useState
 - :round_pushpin: useEffect
