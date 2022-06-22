@@ -1,4 +1,4 @@
-# Expense Tracker
+# Expense Tracker 💸
 
 ## :computer: Languages and Tools:
 <p align="center">
@@ -8,9 +8,11 @@
     <a href="https://reactjs.org/" target="_blank"> <img src="https://img.icons8.com/color/48/000000/react-native.png"/> </a>
 </p>
 
-### :notebook_with_decorative_cover: Description:
--  **React JS**
--  🚀 useState
--  🚀 useEffect
--  🚀 useReducer
--  🚀Context API
+:notebook_with_decorative_cover: **Description:** *An application that tracks incomes and expenses*
+
+-  useState
+-  useEffect
+-  useReducer
+-  Context API
+-  minimalist design
+-  [ ... ]
